@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we create a variable called name and set its value to 'Dane'
+// We create a conditional to check whether the value of name is 'Mary' and if is, we console.log 'Hi, Mary!'
+// If the name is anything other than Mary we console.log 'How do you do?'
+//If we were to run this we would see 'How do you do?' beacause name = Dane and Dane is not Mary.
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We're defining the variable secret based on value of the variable code
+// code has been assigned a value of 123
+// if code is exactly equal to 123, secret will have a value of 'super' code will have a value of itself times 2 (246)
+//if code is greater than 250, secret will have a value of 'duper'
+//we console.log secret and we should see 'super'
 
 //CODE
 /*
@@ -70,10 +71,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we created the variable isStudent and gave it a value of true
+//we created the variable of age and gave it a value of 34
+// we created the value zip and gave it a value of 55407
+// if you are a student and zip is greater than 80000, then we will console.log 'You're a student on the West Coast!'
+//if the above is not true then we check for the following things. 
+//If you are not a student or you are under 30, we will console.log 'What are you hobbies?'
+//if neither of those things are true we will check the next condition.
+//if you are a student we will console.log 'Welcome to Prime!'
+//if none of those things are true we will console.log 'How about the weather?'
 
 //CODE
 /*
@@ -130,12 +136,21 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX the colors are in the incorrect order
+// Should be 
+// let colorOne = 'blue'
+// let colotTwo = 'red'
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+
   colorOne = 'purple';
+
+// FIX colorTwo should also be set to purple
+// colorTwo = 'purple';
 }
 */
 
@@ -145,7 +160,14 @@ if (mix === true) {
 
 /*
 let temp = 40;
+
+//FIX it doesn't make sense for time to be a contant
+//let time = 4;
+
 const time = 4;
+
+//FIX shoudl be and not or 
+//if (temp > 39 && time >= 4) 
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -159,6 +181,11 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//the description only asks for an 'enter' option and the way this is written is backwards
+//if(age >= minAge) {
+  console.log('enter');
+}
 
 if(minAge <= age) {
   console.log('no entry');
